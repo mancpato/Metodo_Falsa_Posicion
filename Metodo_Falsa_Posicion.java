@@ -34,7 +34,8 @@ public class Metodo_Falsa_Posicion {
         System.out.println("ingrese la tolerancia: ");
         tol=entrada.nextDouble();
         
-        if (((a*a*a)-3*(a)+1)* ((b*b*b)-3*(a)+1)>0)
+        // Es mejor evaluar con el método de Horner los polinomios
+        if (  ((a*a*a)-3*(a)+1)* ((b*b*b)-3*(a)+1) > 0  )
             
             System.out.print("no hay raiz");
         
